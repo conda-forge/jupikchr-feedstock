@@ -1,4 +1,4 @@
-{% set version = "0.1.0" %}
+{% set version = "0.2.0" %}
 
 package:
   name: jupikchr
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/j/jupikchr/jupikchr-{{ version }}.tar.gz
-  sha256: f5af0adee8dce636de6a3548a45b1c162718b8d5bc8ace31503a2ce63c32461e
+  sha256: cbe904cc82abc70ab18983ec6c1df86f2830721169ca0204cbb92321376504f6
 
 build:
   noarch: python
@@ -21,7 +21,6 @@ requirements:
   run:
     - python >=3.7
     - ipywidgets >=7,<9
-    - jupyterlab >=3.3,<4
     - jupyterlab-markup
 
 test:
